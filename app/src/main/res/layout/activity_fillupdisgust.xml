@@ -106,6 +106,7 @@
         android:id="@+id/namedis"
         android:layout_width="369dp"
         android:layout_height="61dp"
+        android:textColorHint="@color/white"
         android:ems="10"
         android:hint="Name"
         android:inputType="text"
