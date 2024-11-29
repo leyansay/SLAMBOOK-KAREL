@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fillupanger">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/angerfillbg" />
+
+    <EditText
+        android:id="@+id/nameanger"
+        android:layout_width="369dp"
+        android:layout_height="61sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="244dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/contactanger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <EditText
+        android:id="@+id/contactanger"
+        android:layout_width="369dp"
+        android:layout_height="61sp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Cotact"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/birthdateanger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/birthdateanger"
+        android:layout_width="369dp"
+        android:layout_height="61sp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Birthdate"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/movieanger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/movieanger"
+        android:layout_width="369dp"
+        android:layout_height="61sp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Movie"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/coloranger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/coloranger"
+        android:layout_width="369dp"
+        android:layout_height="61sp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Color"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/songanger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/songanger"
+        android:layout_width="369dp"
+        android:layout_height="61sp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Song"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/animalanger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/animalanger"
+        android:layout_width="369dp"
+        android:layout_height="61sp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:hint="Animal"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/savebtnanger"
+        android:layout_width="178dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@color/white"
+        android:text="Save"
+        android:textColor="@color/redanger"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animalanger" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="369dp"
+        android:layout_marginBottom="836dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backanger" />
+</androidx.constraintlayout.widget.ConstraintLayout>

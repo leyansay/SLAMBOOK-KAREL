@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellowjoy">#e9f375</color>
+    <color name="bluejoy">#317fc9</color>
+    <color name="fleshjoy">#faca7e</color>
+    <color name="lightbluesad">#6ca7da</color>
+    <color name="superlightsad">#b7d4df</color>
+    <color name="darkbluesad">#0a2d71</color>
+    <color name="avocadogreendis">#9acb68</color>
+    <color name="greendis">#157e4a</color>
+    <color name="lightgreendis">#48a043</color>
+    <color name="redanger">#d12218</color>
+    <color name="yelloworangeanger">#f2ac2d</color>
+    <color name="brownanger">#533034</color>
+    <color name="lightpurplefear">#92789d</color>
+    <color name="violetfear">#27233c</color>
+    <color name="vioblefear">#a7adcc</color>
+
+
+
+</resources>

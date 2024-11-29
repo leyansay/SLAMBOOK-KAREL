@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fillupdisgust">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/disgustfillbg" />
+
+    <EditText
+        android:id="@+id/contactdis"
+        android:layout_width="369dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Contact"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/birthdatedis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/birthdatedis"
+        android:layout_width="369dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Birthdate"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/moviedis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/moviedis"
+        android:layout_width="369dp"
+        android:layout_height="61sp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Movie"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/colordis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/colordis"
+        android:layout_width="369dp"
+        android:layout_height="61sp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Color"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/songdis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/songdis"
+        android:layout_width="369dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="193dp"
+        android:ems="10"
+        android:hint="Song"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/animaldis"
+        android:layout_width="369dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Animal"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/songdis" />
+
+    <EditText
+        android:id="@+id/namedis"
+        android:layout_width="369dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/contactdis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.937" />
+
+    <Button
+        android:id="@+id/savebtndis"
+        android:layout_width="178dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/lightgreendis"
+        android:text="Save"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animaldis" />
+
+    <ImageView
+        android:id="@+id/backhomedis"
+        android:layout_width="24dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="359dp"
+        android:layout_marginBottom="830dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backdis" />
+</androidx.constraintlayout.widget.ConstraintLayout>
